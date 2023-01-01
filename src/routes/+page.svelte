@@ -1,7 +1,5 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import Hero from '../views/Hero.svelte';
 </script>
 
 <svelte:head>
@@ -9,6 +7,9 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<section>
-	<h1>Hallo</h1>
-</section>
+<div class="overflow-hidden">
+	<div
+		class="hidden lg:block bg-waves absolute top-0 inset-x-0 h-[160vh] 2xl:h-[200vh] bg-contain bg-no-repeat bg-right-top -z-20"
+	/>
+	<Hero />
+</div>
