@@ -1,5 +1,7 @@
 <script>
+	import Targets from '../views/Targets.svelte';
 	import Hero from '../views/Hero.svelte';
+	import Advantage from '../views/Advantage.svelte';
 </script>
 
 <svelte:head>
@@ -12,4 +14,6 @@
 		class="hidden lg:block bg-waves absolute top-0 inset-x-0 h-[160vh] 2xl:h-[200vh] bg-contain bg-no-repeat bg-right-top -z-20"
 	/>
 	<Hero />
+	<Targets />
+	<Advantage />
 </div>

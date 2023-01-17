@@ -10,7 +10,9 @@ module.exports = {
 				base1: '#191B21'
 			},
 			backgroundImage: {
-				waves: "url('/waves.webp')"
+				waves: "url('/waves.webp')",
+				waves1: "url('/wave1.webp')",
+				waves2: "url('/wave2.webp')"
 			}
 		}
 	},
